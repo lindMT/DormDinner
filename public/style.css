@@ -1,0 +1,103 @@
+body {
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center; /* centers fridge */
+    justify-content: center; /* centers fridge */
+    height: 100vh; /* Ensure the body covers the full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    display: inline;
+    text-align: center;
+}
+
+h1{
+    color: black;
+    font-size: 6rem;
+    font-family: 'Reenie Beanie';
+    margin-bottom: 0px;
+}
+
+h5{
+    color: #888888;
+    font-size: 3rem;
+    font-family: 'Reenie Beanie';
+    margin: 0px;
+}
+
+.mainContainer {  
+    display: block;
+    background-image: linear-gradient(180deg, rgb(106,42,27), rgb(106,42,27) 10%, transparent calc(10% + 2px)),linear-gradient(90deg, transparent 0%, transparent 12%, rgb(245,196,146) 12%, rgb(245,196,146) calc(12% + 2px), transparent calc(12% + 2px), transparent calc(12% + 6px), rgb(245,196,146) calc(12% + 6px), rgb(245,196,146) calc(12% + 8px), transparent calc(12% + 8px), transparent 100%), linear-gradient(180deg, rgb(251,238,159) 22%, transparent 22%), repeating-linear-gradient(180deg, rgb(201,215,152) 0px, rgb(201,215,152) 2px, transparent 2px, transparent 36px), linear-gradient(rgb(251,238,159),rgb(251,238,159));
+    padding-top: 6vh;
+    padding-left: 6vw;
+    margin: 20px;
+    text-align: center;
+    font-size: 2.4rem;
+    font-family: 'Reenie Beanie';
+    height: 85vh;
+    width: 35vw;
+    align-self: flex-end;
+}
+
+button {
+    margin-right: 1vw;
+}
+
+.submit-button {
+    height: 75px;
+    width: 150px;
+    background: linear-gradient(90deg, white 50%, skyblue 50%);
+    font-family: 'Reenie Beanie';
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: black;
+    box-shadow: 5px 10px #888888;
+}
+
+.back-button {
+    height: 75px;
+    width: 150px;
+    background: linear-gradient(90deg, white 50%, pink 50%);
+    font-family: 'Reenie Beanie';
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: black;
+    box-shadow: 5px 10px #888888;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center; /* horizontally center the button */
+    align-items: flex-end; /* align the button to the bottom */
+    flex-direction: column; /* stack items vertically within the container */
+}
+  
+
+.textbox-container {
+    text-align: center;
+    height: 50vh;
+    margin-right: 6vw;
+}
+
+.handwritten-pre {
+    font-family: 'Reenie Beanie';
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+textarea {
+    width: 100%; /* Adjust the width as needed */
+    height: 100%; /* Adjust the height as needed */
+    padding: 10px;
+    font-family: 'Reenie Beanie';
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: black;
+    border: 1px solid #ccc;
+    resize: vertical; /* Allow vertical resizing */
+    background-color: transparent;
+    outline: transparent;
+}
