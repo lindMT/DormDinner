@@ -4,6 +4,10 @@ dotenv.config(); // Load environment variables from .env file
 const bodyParser = require("body-parser");
 const app = express();
 
+// for onrender
+const { AbortController } = require('abort-controller');
+global.AbortController = AbortController;
+
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(express.json());
