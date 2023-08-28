@@ -1,4 +1,4 @@
-# DormDinner - A ChatGPT API Integration Website to help you think of what to make for dinner. 
+# DormDinner - A ChatGPT API Integration Website
 
 DormDinner is a website where you can input all your stock food or ingredients from your pantry, and generate delicious recipes you can make. Powered by OpenAi's chatGPT API.
 
