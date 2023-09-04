@@ -19,8 +19,7 @@ const dormDinnerController = {
                     model: "text-davinci-003",
                     prompt:                             
                         "Using your ingredients:"+       
-                        ingredients+        
-                        "2 packs instant noodles"+
+                        ingredients+
                         ", you can create the following list of 3 dishes (without any instructions on recipes): ",
                     max_tokens: 50,
                   });
